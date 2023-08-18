@@ -1,3 +1,5 @@
+// Neste código, é definida uma classe abstrata chamada `AbstractMeal`, que implementa o contrato da interface `MealCompositeProtocol`. Aqui está a descrição da classe:
+
 // Importando a interface necessária para garantir que a classe implemente os métodos obrigatórios.
 import { MealCompositeProtocol } from '../interfaces/meal-composite-protocol';
 
@@ -14,3 +16,11 @@ export abstract class AbstractMeal implements MealCompositeProtocol {
     return this.price;
   }
 }
+
+/*
+Nesta classe, AbstractMeal é uma classe abstrata que implementa o contrato da interface MealCompositeProtocol. Ela serve como uma base para a criação de diferentes tipos de refeições.
+
+A classe possui um construtor que recebe o nome e o preço da refeição como parâmetros. O método getPrice() é implementado de acordo com o contrato da interface MealCompositeProtocol e retorna o preço da refeição.
+
+Esta classe abstrata pode ser estendida por outras classes que representam tipos específicos de refeições, como arroz, feijão, carne, bebida e sobremesa. Ela fornece uma implementação básica e compartilhada de funcionalidades para todas as classes de refeição.
+*/

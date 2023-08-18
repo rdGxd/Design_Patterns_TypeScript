@@ -1,3 +1,5 @@
+// Neste código, é definida a classe `MainDishBuilder`, que é responsável por construir pratos principais de refeições. A classe implementa o contrato da interface `MealBuilderProtocol` para construir diferentes tipos de refeições. Aqui está a descrição da classe:
+
 // Importando as interfaces e classes necessárias para construir as refeições.
 import { MealBuilderProtocol } from '../interfaces/meal-builder-protocol';
 import { MealBox } from './meal-box';
@@ -56,3 +58,13 @@ export class MainDishBuilder implements MealBuilderProtocol {
     return this._meal.getPrice();
   }
 }
+
+/*
+Nesta classe, MainDishBuilder é responsável por construir pratos principais de refeições. Ela implementa a interface MealBuilderProtocol, permitindo a construção de diferentes tipos de refeições.
+
+Os métodos makeMeal(), makeBeverage() e makeDessert() criam instâncias de diferentes itens de refeição (arroz, feijão, carne, bebida e sobremesa) e os adicionam à MealBox usando o método add().
+
+Os métodos getMeal() e getPrice() retornam a refeição construída (um MealBox contendo os itens de refeição) e o preço total da refeição, respectivamente.
+
+Esta classe demonstra a criação e personalização de pratos principais de refeições utilizando o padrão Builder.
+ */

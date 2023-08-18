@@ -1,3 +1,5 @@
+// Neste código, é definida a classe `VeganDishBuilder`, que implementa o contrato da interface `MealBuilderProtocol` para construir pratos veganos de refeições. Aqui está a descrição da classe:
+
 // Importando as interfaces e classes necessárias para construir as refeições.
 import { MealBuilderProtocol } from '../interfaces/meal-builder-protocol';
 import { MealBox } from './meal-box';
@@ -35,3 +37,11 @@ export class VeganDishBuilder implements MealBuilderProtocol {
     return this._meal.getPrice();
   }
 }
+
+/*
+Nesta classe, VeganDishBuilder implementa a interface MealBuilderProtocol para construir pratos veganos de refeições. Ela mantém uma instância de MealBox para construir a refeição. Os métodos reset(), makeMeal(), getMeal() e getPrice() são definidos de acordo com o contrato da interface.
+
+O método makeMeal() cria instâncias de itens veganos de refeição (no caso, Rice e Beans) e os adiciona à MealBox. O método getMeal() retorna a refeição construída (um MealBox contendo os itens veganos). O método getPrice() retorna o preço total da refeição construída.
+
+Esta classe exemplifica a implementação do padrão Builder para criar pratos veganos de refeições de maneira estruturada e organizada.
+*/
