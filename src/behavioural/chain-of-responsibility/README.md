@@ -24,8 +24,6 @@ Use o Chain Of Responsibility quando:
 - você quer aplicar o princípio da responsabilidade única para tratamento de dados da requisição. Cada objeto fica responsável por tratar apenas a parte que lhe couber
 - você quer permitir que os objetos responsáveis pelo tratamento de requisição possam variar em tempo de execução
 
-
-
 ## Implementação
 
 Veja o código e os diagramas dessa pasta para entender como o Chain Of Responsibility é implementado.
