@@ -1,4 +1,4 @@
-# Chain Of Responsibility - Behavioural (Comportamental)
+# Chain Of Responsibility - Behavioral (Comportamental)
 
 ## Intenção
 

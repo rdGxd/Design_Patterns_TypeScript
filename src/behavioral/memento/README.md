@@ -1,4 +1,4 @@
-# Memento - Behavioural (Comportamental)
+# Memento - Behavioral (Comportamental)
 
 ## Intenção
 

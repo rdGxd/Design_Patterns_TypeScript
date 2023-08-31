@@ -1,8 +1,8 @@
-# Visitor - Behavioural (Comportamental)
+# Visitor - Behavioral (Comportamental)
 
 ## Intenção
 
-*Representa uma operação a ser executada sobre os elementos da estrutura de um objeto. O visitor permite que você separe um algoritmo dos elementos sobre os quais opera.*
+_Representa uma operação a ser executada sobre os elementos da estrutura de um objeto. O visitor permite que você separe um algoritmo dos elementos sobre os quais opera._
 
 ---
 
@@ -32,10 +32,12 @@ Veja o código e os diagramas dessa pasta para entender como o Visitor é implem
 O que é bom ou ruim no Visitor:
 
 **Bom:**
+
 - Limpa o código da regra de negócio
 - Separa algoritmos complexos em objetos auxiliares
 - Aplica SRP e OCP
 
 **Ruim:**
+
 - Se um novo objeto for adicionado à estrutura, você precisará atualizar os objetos visitantes
 - Objetos visitantes podem não ter acesso a todos os membros dos objetos em que operam

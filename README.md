@@ -4,9 +4,9 @@ Este é o repositório da seção de Padrões de Projeto disponível gratuitamen
 
 https://www.youtube.com/watch?v=MqddY6Ochkc&list=PLbIBj8vQhvm0VY5YrMrafWaQY2EnJ3j8H
 
-Por favor, acompanhe os vídeos para maior entendimento.  
+Por favor, acompanhe os vídeos para maior entendimento.
 
-As pastas estão organizadas com as categorias dos padrões de projeto segundo o livro da GoF. São elas, behavioural (comportamentais), creational (criacionais) e structural (estruturais).
+As pastas estão organizadas com as categorias dos padrões de projeto segundo o livro da GoF. São elas, Behavioral (comportamentais), creational (criacionais) e structural (estruturais).
 
 Cada pasta contém um README detalhando a categoria em si e os padrões de projeto nela presentes.
 

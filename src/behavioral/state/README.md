@@ -1,8 +1,8 @@
-# State - Behavioural (Comportamental)
+# State - Behavioral (Comportamental)
 
 ## Intenção
 
-*Permite que um objeto altere seu comportamento quando seu estado interno muda. O objeto parecerá ter mudado sua classe*
+_Permite que um objeto altere seu comportamento quando seu estado interno muda. O objeto parecerá ter mudado sua classe_
 
 ---
 
@@ -70,9 +70,11 @@ Veja o código e os diagramas dessa pasta para entender como o State é implemen
 O que é bom ou ruim no State:
 
 **Bom:**
+
 - desacopla a lógica de um estado da classe de contexto
 - permite a criação de novos estados apenas adicionando novas classes
 - elimina condicionais complexas da classe de contexto
 
 **Ruim:**
+
 - se você tem apenas poucas condicionais simples, aplicar este padrão pode deixar o seu código mais complexo do que o necessário

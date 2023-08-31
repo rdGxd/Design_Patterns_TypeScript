@@ -1,4 +1,4 @@
-# Command - Behavioural (Comportamental)
+# Command - Behavioral (Comportamental)
 
 ## Intenção
 
@@ -12,7 +12,7 @@ Em vídeo: https://www.youtube.com/watch?v=WwDnYXr7jqk&list=PLbIBj8vQhvm0VY5YrMr
 
 Command é um padrão de projeto que tem a intenção de encapsular um comando diretamente em um objeto. Na verdade é um padrão bem simples, por ser a versão orientada a objetos para funções de callback, ou seja, se você conhece funções de callback, conhece o padrão command.
 
-Por exemplo, se você tem um botão na sua aplicação e deseja que esse botão mande solicitações (comandos) para outro objeto (digamos um widget na tela), ao invés de encaminhar a chamada diretamente para o widget, criaríamos um objeto específico relacionado com este comando. 
+Por exemplo, se você tem um botão na sua aplicação e deseja que esse botão mande solicitações (comandos) para outro objeto (digamos um widget na tela), ao invés de encaminhar a chamada diretamente para o widget, criaríamos um objeto específico relacionado com este comando.
 
 Suponha que a classe `DisplayMessageCommand`, fosse o nosso comando. Essa classe precisa ter um campo para fazer referência ao *receiver* (o widget). Nesse caso, nosso botão encaminha uma solicitação ao `DisplayMessageCommand`, que conhece a classe do widget, que sabe como executar o comando. Mais ou menos assim:
 
@@ -32,7 +32,7 @@ Veja a pasta diagramas.
 
 Use o Command quando:
 
-- você quer desacoplar o objeto que envia a solicitação do objeto que a receberá 
+- você quer desacoplar o objeto que envia a solicitação do objeto que a receberá
 - você quer tratar um comando como um objeto (com a possibilidade de armazenar, agendar, enfileirar,  fazer log, agendar execuções, ou fazer qualquer coisa que pode ser feita com um objeto)
 - você quer permitir que solicitações possam ser feitas e desfeitas
 

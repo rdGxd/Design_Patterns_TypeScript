@@ -1,4 +1,4 @@
-# Iterator - Behavioural (Comportamental)
+# Iterator - Behavioral (Comportamental)
 
 ## Intenção
 
@@ -22,7 +22,7 @@ Use o Iterator quando:
 
 - você precisa remover a complexidade de travessia de dentro da coleção principal. Isso permite que sua coleção foque apenas em armazenar dados de maneira eficiente
 - sua coleção pode ter vários modos de travessia, como crescente, decrescente,  pelo menor número de saltos, pulando de dois em dois, ou como preferir
-- você quer disponibilizar protocolos de travessia para diferentes tipos coleções 
+- você quer disponibilizar protocolos de travessia para diferentes tipos coleções
 
 
 ## Implementação
