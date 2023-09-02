@@ -2,7 +2,7 @@
 
 ## Intenção
 
-_Permite que um objeto altere seu comportamento quando seu estado interno muda. O objeto parecerá ter mudado sua classe_
+*Permite que um objeto altere seu comportamento quando seu estado interno muda. O objeto parecerá ter mudado sua classe*
 
 ---
 
